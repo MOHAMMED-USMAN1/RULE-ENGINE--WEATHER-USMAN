@@ -9,3 +9,10 @@ pip install -r requirements.txt
 Run the API server:
 
 python app.py
+
+
+Test the API using Postman or cURL. For example, to create a rule:
+
+bash
+
+curl -X POST -H "Content-Type: application/json" -d '{"rule": "age > 30 AND department = \'Sales\'"}' http://localhost:5000/create_rule
