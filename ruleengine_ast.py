@@ -1,4 +1,4 @@
-#datastrucutre
+#datastrucutres
 # ast_engine.py
 
 class Node:
