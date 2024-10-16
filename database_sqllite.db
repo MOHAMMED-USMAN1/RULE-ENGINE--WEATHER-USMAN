@@ -1,0 +1,11 @@
+CREATE TABLE rules (
+    id INTEGER PRIMARY KEY,
+    rule_string TEXT,
+    ast TEXT  -- Serialized AST for easy retrieval
+);
+
+CREATE TABLE metadata (
+    id INTEGER PRIMARY KEY,
+    key TEXT,
+    value TEXT
+);
