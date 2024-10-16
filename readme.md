@@ -45,9 +45,19 @@ REFER TO ruleengine_ast.py file
 6. Database Storage
 You can store the AST rules in a database like SQLite or PostgreSQL. Here's an example of using SQLite.
 
-REFER TO ruleengine_.py file
+for schema representation REFER TO  REFER TO ruleengine_schema_database_sqllite.db file
 
 for database - REFER TO ruleengine_database.py file
+
+7. Test Cases
+Test the system by creating unit tests for the main functionalities
+
+
+refer to ruleengine_test.py file
+
+8. Running the Application
+
+   refer to ruleengine_runafile
 
 
 
