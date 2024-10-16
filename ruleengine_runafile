@@ -1,0 +1,11 @@
+. Running the Application
+To run the application locally:
+
+Install the dependencies:
+
+ 
+pip install -r requirements.txt
+
+Run the API server:
+
+python app.py
