@@ -37,6 +37,18 @@ You can design RESTful APIs using Flask or FastAPI. Here’s an example of how t
 
 REFER TO ruleengine_app.py file
 
+5. Rule Creation and Evaluation
+Here’s an example of the core rule creation and evaluation functions.
+
+REFER TO ruleengine_ast.py file
+
+6. Database Storage
+You can store the AST rules in a database like SQLite or PostgreSQL. Here's an example of using SQLite.
+
+REFER TO ruleengine_.py file
+
+for database - REFER TO ruleengine_database.py file
+
 
 
 
